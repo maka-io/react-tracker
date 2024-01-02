@@ -1,6 +1,9 @@
-# react-meteor-data
+# react-tracker
 
 This package provides an integration between React and [`Tracker`](https://atmospherejs.com/meteor/tracker), Meteor's reactive data system.
+
+DISCLAIMER:  This is a forked and hevily modified version of `react-meteor-data`.  The reason for this divergance is because `react-meteor-data` requires mongo to function.  While this is ok, there are many apps that don't need mongo
+and just need tracker.  Examples would be for utilizing Session.
 
 ## Table of Contents
 
