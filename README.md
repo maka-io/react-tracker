@@ -25,7 +25,12 @@ and just need tracker.  Examples would be for utilizing Session.
 To install the package, use `meteor add`:
 
 ```bash
-meteor add react-meteor-data
+meteor add maka:react-tracker
+```
+
+Or with `maka-cli`
+```bash
+maka add maka:react-tracker
 ```
 
 You'll also need to install `react` if you have not already:
